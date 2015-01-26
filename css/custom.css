@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Bazar';
+  src: url('../fonts/bazar_medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Regular.ttf');
+}
+
+body {
+  background-color: #852E27;
+  color: #FFF;
+}
+
+header, h1, h2, h3, h4, h5, h6, .caption {
+  font-family: 'Bazar', sans-serif;
+  text-transform: uppercase;
+}
+
+.text-orange {
+  color: #D26A43;
+}
+
+main {
+  position: relative;
+  width: 100%;
+}
+
+.hero {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/kdip.jpg');
+}
+
+header {
+  padding-top: 50px;
+  text-shadow: 2px 2px #000;
+}
+
+header img {
+  margin-right: 10px;
+  vertical-align: -50%;
+  width: 112px;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+.caption {
+  float: right;
+  font-size: 82px;
+  height: 850px;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.recipes {
+  background: none repeat scroll 0 0 rgba(210, 104, 66, 0.75);
+  padding: 70px 0;
+}
+
+.box {
+  background-color: #383838;
+  color: #FFF;
+  padding: 30px;
+}
+
+.idea .fa:before {
+  display: inline-block;
+  font-size: 36px;
+  margin-right: 5px;
+  vertical-align: -20%;
+}
+
+u {
+  border-bottom: 1px dotted #FFF;
+  text-decoration: none;
+}
+
+.links {
+  background-color: #383838;
+  font-size: 160px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+.links i {
+  margin: 0 20px;
+}
+
+.links a {
+  color: #7D7D7D;
+  transition: all 0.5s linear;
+}
+
+.links a:hover, a:focus {
+  color: #DDDDDD;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/philly.png');
+}
+
+.footer p {
+  padding: 70px 0;
+  font-size: 20px;
+}
+
+.transparent-overlay {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.80);
+}
